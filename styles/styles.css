@@ -1,20 +1,60 @@
 * {
     font-family: "Garamond", "Helvetica", sans-serif;
-}
+    color: white;
+    font-weight: bold;
+    }
+
+body {
+    background-color: SandyBrown;
+    background: linear-gradient(SandyBrown, white);
+    
+    }  
     
     img {
     height: auto;
-    width: 400px;
+    width: 800px;
     }
 
 .title {
     font-size: 70px;
     text-align: center;
-    color: red;
+    color: white;
+    background-color: brown;
+    border-radius: 25px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
 }
 
-.recipes {
+div .recipes {
+    display: flex;
+    justify-content: center;
     text-align: center;
-    font-size: 30px;
-    font-weight: bold;
+    font-size: 22px;
+    background-color: rgb(224, 137, 137);
+    border-radius: 25px;
+    list-style-type: none;
+}
+
+/*.recipe-one {
+    align-item: flex-start;
+}
+
+.recipe-two {
+    align-item: center;
+}*/
+
+.red-apples {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.index-img {
+    width: 250px;
+    height: 250px;
+    border-radius: 25px;
+    margin: 15px;
 }
