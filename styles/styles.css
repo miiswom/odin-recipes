@@ -12,7 +12,7 @@ body {
     
     img {
     height: auto;
-    width: 800px;
+    width: 400px;
     }
 
 .title {
@@ -46,10 +46,15 @@ div .recipes {
 
 .red-apples {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     margin-top: 50px;
     margin-bottom: 50px;
+}
+
+.quote {
+    font-size: 40px;
+    font-style: italic;
 }
 
 .index-img {
