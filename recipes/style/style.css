@@ -1,16 +1,54 @@
 * { 
     font-family: "Garamond", "Helvetica", sans-serif;
     font-size: 24px;
+    border-radius: 25px;;
+}
+
+body {
+    background-color: SandyBrown;
+    background: linear-gradient(SandyBrown, white);
+    } 
+
+img {
+    width: 400px;
+    height: auto;
+    border-radius: 25px;
+    margin-top: 25px;
 }
 
 .title {
-    font-size: 70px;
+    font-size: 50px;
     text-align: center;
-    color: red;
+    background-color: #A0522D;
+    color: white;
+    padding: 20px;
+    border-radius: 0px;
+    margin: 0px;
+}
+
+.img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .subsection {
-    background-color: rgb(231, 107, 85);
+    background-color: SandyBrown;
+    background: linear-gradient(SandyBrown, white);
     text-align: center;
     font-size: 30px;
+    color: black;
+    margin: 20px;
+    padding: 20px;
+}
+
+.section {
+    background-color: white;
+    margin: 20px;
+    padding: 20px;
+}
+
+.all-section {
+    display: flex;
+    flex: 1 1 auto;
 }
