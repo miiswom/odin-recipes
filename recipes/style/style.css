@@ -1,6 +1,6 @@
 * { 
     font-family: "Garamond", "Helvetica", sans-serif;
-    font-size: 24px;
+    font-size: 16px;
     border-radius: 25px;;
 }
 
@@ -10,14 +10,14 @@ body {
     } 
 
 img {
-    width: 400px;
+    width: 300px;
     height: auto;
     border-radius: 25px;
     margin-top: 25px;
 }
 
 .title {
-    font-size: 50px;
+    font-size: 36px;
     text-align: center;
     background-color: #A0522D;
     color: white;
@@ -36,7 +36,7 @@ img {
     background-color: SandyBrown;
     background: linear-gradient(SandyBrown, white);
     text-align: center;
-    font-size: 30px;
+    font-size: 24px;
     color: black;
     margin: 20px;
     padding: 20px;
@@ -51,4 +51,5 @@ img {
 .all-section {
     display: flex;
     flex: 1 1 auto;
+    justify-content: center;
 }
