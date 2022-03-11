@@ -2,13 +2,14 @@
     font-family: "Garamond", "Helvetica", sans-serif;
     color: white;
     font-weight: bold;
+    /*border: 1px solid red;*/
     }
 
 body {
     background-color: SandyBrown;
     background: linear-gradient(SandyBrown, white);
-    }  
-    
+    }
+
     img {
     height: auto;
     width: 400px;
@@ -49,11 +50,13 @@ div .recipes {
     align-items: center;
     margin-top: 50px;
     margin-bottom: 50px;
+    gap: 8px;
 }
 
 .quote {
     font-size: 40px;
     font-style: italic;
+    width: 330px;
 }
 
 .index-img {
