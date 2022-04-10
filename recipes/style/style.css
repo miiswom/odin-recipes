@@ -1,12 +1,15 @@
 * { 
     font-family: "Garamond", "Helvetica", sans-serif;
     font-size: 16px;
-    border-radius: 25px;;
+    border-radius: 25px;
+    /*border: 1px red solid;*/
 }
 
 body {
     background-color: SandyBrown;
     background: linear-gradient(SandyBrown, white);
+    margin-right: 50px;
+    margin-left: 50px;
     } 
 
 img {
@@ -46,10 +49,14 @@ img {
     background-color: white;
     margin: 20px;
     padding: 20px;
+    flex-grow: 1;
 }
 
 .all-section {
     display: flex;
-    flex: 1 1 auto;
-    justify-content: center;
+    justify-content: stretch;
+}
+
+.last-section {
+    width: auto;
 }
